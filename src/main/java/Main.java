@@ -1,12 +1,20 @@
+import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        String greeting = "Hello, world";
-        System.out.println(greeting);
-        System.out.println(greeting.length());
+        Stack <String> myStack = new Stack<>();
 
-// hi
+        myStack.push("Owen");
+        myStack.push("Yudeer");
+        myStack.push("Jake");
+
+        System.out.println(myStack.peek());
+        myStack.pop();
+        System.out.println(myStack.pop());
+        System.out.println(myStack.size());
+        System.out.println(myStack);
 
 
     }
